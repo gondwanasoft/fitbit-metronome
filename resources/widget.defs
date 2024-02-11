@@ -1,0 +1,12 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/icon_button.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
+    <link rel="import" href="widgets/time-blink/index.view" />
+    <link rel="import" href="widgets/timer/index.view" />
+    <link rel="import" href="widgets/touch/index.view" />
+    <link rel="import" href="widgets/shadow-text/index.view" />
+  </defs>
+</svg>

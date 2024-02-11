@@ -5,11 +5,16 @@ You can get the finished product from [here](https://gallery.fitbit.com/details/
 
 ### Structure
 
-The app has several different display modes (session timer paused, session timer playing, metronome selection, etc). Each of these is handled in JavaScript as a separate Object (actually, a closure). A state machine approach is used switch between them.
+The app has several different display modes (session timer paused, session timer playing, metronome selection, etc). Each of these is handled in JavaScript as a separate Object (actually, a closure). A crude finite state machine approach is used switch between them.
 
-I originally intended to make this structure much more rigorous (including possible use of Fitbit's dynamic document API); however, during the development of this app, my watches died and took my motivation with them.
 
-### Missing File
+### Missing Stuff
+
+I originally intended to make the state-machine structure much more rigorous (including possible use of Fitbit's dynamic document API); however, during the development of this app, my watches died and took my motivation with them.
+
+The original version of this app was AOD-enabled. The AOD permission request has been removed from this repo's `package.json` since most devs haven't been authorised to publish AOD-enabled products. If you have been so authorised, or if you just wish to run the app on the Fitbit simulator, you can reinstate the permission request.
+
+The original version of this app attempted to target Versa 4 and Sense 2 (in addition to Versa 3 and Sense 1). The former targets have been removed, but I haven't checked whether this repo builds and runs correctly in its current configuration.
 
 `vig.png` normally fades the edges of the background to black, but has been replaced by a transparent image in this repository because it is also used in non-free products.
 

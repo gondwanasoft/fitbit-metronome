@@ -1,0 +1,75 @@
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+.time-blink {
+  font-family: System-Bold;
+  font-size: 36;
+  fill: #cdae8e;
+}
+
+.time-blink #colon {
+  y: -3;
+  fill: #8b4132;
+}
+
+#time #shadow {
+  fill: #808080;
+  x:3;
+  y:3;
+  opacity: 0.6;
+}
+
+#date {
+  font-family: System-Bold;
+  font-size: 36;
+  fill: #cdae8e;
+}
+
+#date .myText {
+  text-anchor: end;
+}
+
+#date #shadow {
+  fill: #808080;
+  x:3;
+  y:3;
+  opacity: 0.6;
+}
+
+#timer {
+  font-family: System-Bold;
+  font-size: 90;
+  fill: white;
+}
+
+#timer #shadow {
+  fill: #808080;
+  x:5;
+  y:5;
+  opacity: 0.6;
+}
+
+#timer .colon {
+  y: -9;
+}
+
+#timer .colon-fill {
+  fill: #8b4132;
+}
+
+.select-btn {
+  fill: #40a040;
+}
+
+.select-btn #text {
+    y: 48;
+}
+
+.custom {
+  y:0;
+  font-size: 150;
+  text-anchor: middle;
+  font-family: System-Bold;
+  fill: white;
+  pointer-events: visible;
+}

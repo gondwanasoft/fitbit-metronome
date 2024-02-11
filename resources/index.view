@@ -1,0 +1,38 @@
+<svg>
+  <svg id='clock'>
+    <image id='bg' href="Beethoven.jpg" />
+    <image href="vig.png" />
+    <!--<text id='hour' x='80' y='50' text-anchor='end' text-length='4' fill='white' font-family='System-Bold'/>-->
+    <!--<text id='minute' x='100' y='50' text-length='4' fill='white'/>-->
+    <use id='time' href="#time-blink" x="75" y="50" />
+    <use id='date' href="#shadowText" x="300" y="308" />
+  </svg>
+  <!--<rect id="touch" width='100%' height='100%' pointer-events="visible" opacity='0' />-->
+  <rect id='flash' width='100%' height='100%' fill='black' display='none' />
+  <use id='timer' href='#timerWidget' x='50%' y='198' display='none'/>
+  <use id='touch' href='#touchWidget' />
+  <svg id='metroSelect' display='none'>
+    <use id="0" href="#text-button" y='0' height='78' class="text-button select-btn" />
+    <use id="1" href="#text-button" y='86' height='78' class="text-button select-btn" />
+    <use id="2" href="#text-button" y='172' height='78' class="text-button select-btn" />
+    <use id="-1" href="#text-button" y='258' height='78' fill='#0060a0' class="text-button select-btn" >
+      <set href='text' attributeName='text-buffer' to='CUSTOM' />
+      <set href='text' attributeName='fill' to='#60c0ff' />
+    </use>
+  </svg>
+  <svg id='metroCustom' display='none'>
+    <!--<rect width='100%' height='100%' fill='red' />-->
+    <text x='50%' y='30' text-anchor="middle" font-size='20' fill='cyan' >Tempo (beats per minute):</text>
+    <section y='152'>
+      <text id='100' x='20%' class='custom tempo'>2</text>
+      <text id='10' x='50%' class='custom tempo'>3</text>
+      <text id='1' x='80%' class='custom tempo'>8</text>
+    </section>
+    <text x='50%' y='191' text-anchor="middle" font-size='20' fill='cyan' >Time signature (beats per bar):</text>
+    <section y='313'>
+      <text id='10' x='20%' class='custom sig'>1</text>
+      <text id='1' x='50%' class='custom sig'>2</text>
+    </section>
+  </svg>
+  <use id="btn" href="#icon-button" class="medium-button" x="240" y="240" fill='#cdae8e' display='none' />
+</svg>

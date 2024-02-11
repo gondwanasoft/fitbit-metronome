@@ -1,0 +1,7 @@
+.time-blink text {
+  text-length: 4;
+}
+
+.time-blink #shadow {
+  fill: #505050;
+}

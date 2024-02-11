@@ -1,0 +1,31 @@
+{
+  "name": "code",
+  "version": "5.0.2",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.2.0-pre.1",
+    "@fitbit/sdk-cli": "^1.8.0-pre.11"
+  },
+  "fitbit": {
+    "appType": "app",
+    "appDisplayName": "Metronome",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "xrequestedPermissions": [
+      "access_aod"
+    ],
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US",
+    "appUUID": "d368bb56-a3b1-4341-8738-4c247a889549"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

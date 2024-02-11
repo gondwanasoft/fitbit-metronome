@@ -1,0 +1,19 @@
+<defs>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Note: id and class names used here are prefixed by the widget type name to reduce the chance of ambiguous CSS.
+       You don't have use this convention, but if you don't, be careful that your CSS selectors aren't too greedy.
+       Take particular care with the config element (if used), since that id may also be used by other widget types. -->
+
+  <symbol id="time-blink" x="0" y="0" type="time-blink" class='time-blink'>
+    <!-- time is centred around x -->
+    <svg id='shadow'>
+      <text id="hourSh" y='0'/>
+      <text id="colonSh">:</text>
+      <text id="minSh" y='0'/>
+    </svg>
+    <text id="hour" y='0'/>
+    <text id="colon">:</text>
+    <text id="min" y='0'/>
+  </symbol>
+</defs>

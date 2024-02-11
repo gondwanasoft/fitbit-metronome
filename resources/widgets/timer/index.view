@@ -1,0 +1,19 @@
+<defs>
+  <link rel="stylesheet" href="styles.css" />
+
+  <symbol id="timerWidget" x="0" y="0" type="timerWidget" class='timer' opacity='1'>
+    <!-- time is centred around x -->
+    <svg id='shadow'>
+      <text id="tHrSh" y='0'/>
+      <text id="tHrColonSh" class='colon'>:</text>
+      <text id="tMinSh" y='0'/>
+      <text id="tMinColonSh" class='colon'>:</text>
+      <text id="tSecSh" y='0'/>
+    </svg>
+    <text id="tHr" y='0'/>
+    <text id="tHrColon" class='colon colon-fill'>:</text>
+    <text id="tMin" y='0'/>
+    <text id="tMinColon" class='colon colon-fill'>:</text>
+    <text id="tSec" y='0'/>
+  </symbol>
+</defs>

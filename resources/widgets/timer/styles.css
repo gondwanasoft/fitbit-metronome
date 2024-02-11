@@ -1,0 +1,7 @@
+.timer text {
+  text-length: 4;
+}
+
+.timer #shadow {
+  fill: #505050;
+}
